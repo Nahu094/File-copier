@@ -1,0 +1,3 @@
+Optimizar codigo (funciones)
+Quitar consola en modo GUI
+Error al buscar la extencion del archivo, no buscar el caracter "." por que el directorio puede contener uno
