@@ -1,7 +1,7 @@
 # File-copier
-File-copier es un programa que copia un archivo y crea muchas copias de este con distintos nombres previamente dados en un archivo de texto (.txt).
+File-copier es un programa que copia un archivo y crea multiples copias de este con distintos nombres previamente dados en un archivo de texto (.txt).
 
-*G.U.I Mode*
+*** Interfaz Grafica ***
 --
 ![image](https://user-images.githubusercontent.com/81646953/191968371-65b71ae4-8a7d-4aad-9d54-e0e46d247317.png)
 
@@ -29,6 +29,13 @@ Los archivos copiados se encontraran en la ruta del programa, alli encontrara un
 
 ![image](https://user-images.githubusercontent.com/81646953/191970998-bb2ff7c5-0dc8-41a6-b6d2-229b3d94bf62.png)
 
-*Dev mode*
+*** Como construir ***
+###Necesita Python 3
 --
-Añadiendo el parametro test a la llamada del programa este iniciara en modo dev en consola.
+Crear un entorno virtual y activarlo o probarlo baremetal
+``python -m venv venv ``
+``.\venv/Scripts/activate ``
+Instalar dependencias del archivo pyproject.toml
+``pip install . ``
+Lanzar Copiador.py
+``python Copiador.py ``
