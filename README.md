@@ -38,6 +38,6 @@ pip install pdm
 ```
 pip install
 ```
-``pip install . ``
+``pdm install . ``
 Lanzar Copiador.py
 ``python Copiador.py ``
