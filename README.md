@@ -29,13 +29,15 @@ Los archivos copiados se encontraran en la ruta del programa, alli encontrara un
 
 ![image](https://user-images.githubusercontent.com/81646953/191970998-bb2ff7c5-0dc8-41a6-b6d2-229b3d94bf62.png)
 
-*** Como construir ***
-###Necesita Python 3
+## 📦 Instalación
 --
-Crear un entorno virtual y activarlo o probarlo baremetal
-``python -m venv venv ``
-``.\venv/Scripts/activate ``
 Instalar dependencias del archivo pyproject.toml
+```
+pip install pdm
+```
+```
+pip install
+```
 ``pip install . ``
 Lanzar Copiador.py
 ``python Copiador.py ``
